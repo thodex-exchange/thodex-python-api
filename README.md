@@ -1,6 +1,11 @@
 # Thodex Python Api
 Python library for the Thodex API designed to be easy to use.
 
+## Installation
+```
+Type "python setup.py install" or "pip install thodex" to install.
+```
+
 ## Public Methods
 ##### server_time
 ###### Success-Response:
@@ -33,10 +38,7 @@ Python library for the Thodex API designed to be easy to use.
             "min_amount": "0.0001",
             "maintenance": "NO",
             "maintenance_note": null
-        },
-        ...
-        ...
-        ...
+        }
     ]
 }
 ```
@@ -331,9 +333,6 @@ Python library for the Thodex API designed to be easy to use.
             "available": "0",
             "freeze": "0"
         },
-        ...
-        ...
-        ...
     }
 }
 ```

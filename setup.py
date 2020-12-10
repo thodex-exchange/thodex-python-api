@@ -1,14 +1,14 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='thodex',
-    version='1.0.0',
+    name='Thodex',
+    version='1.0.3',
     license='MIT',
     description='Python library for the Thodex API designed to be easy to use.',
     author='Atakan DEMIRKIR',
     author_email='atakandemirkir@gmail.com',
     url='https://github.com/atakandemirkir/thodex-python-api',
-    packages=[''],
+    packages=find_packages(),
     python_requires=">=3.0",
     install_requires=[
         "requests",

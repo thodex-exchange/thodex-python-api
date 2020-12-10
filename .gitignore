@@ -2,5 +2,5 @@
 tests/
 dist/
 build/
-thodex.egg-info/
+Thodex.egg-info/
 test.py

@@ -5,8 +5,6 @@ from Thodex import ThodexClient
 class ThodexSocketMessage(ThodexClient):
     @staticmethod
     def on_message(ws, message: str):
-        if len(message) > 2000:
-            return None
         message = json.loads(message)
         if message['method']:
             message['method'] = message['method'].split(".")[0]
