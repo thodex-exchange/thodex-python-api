@@ -3,7 +3,7 @@ Python library for the Thodex API designed to be easy to use.
 
 ## Installation
 ```
-Type "python setup.py install" or "pip install thodex" to install.
+Type "python setup.py install" or "pip install Thodex" to install.
 ```
 
 ## Public Methods
