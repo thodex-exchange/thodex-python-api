@@ -1,0 +1,6 @@
+.idea
+tests/
+dist/
+build/
+thodex.egg-info/
+test.py
