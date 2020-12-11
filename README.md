@@ -5,6 +5,13 @@ Python library for the Thodex API designed to be easy to use.
 ```
 Type "python setup.py install" or "pip install thodex" to install.
 ```
+```python
+from Thodex import ThodexClient
+
+thdx = ThodexClient("apikey", "secret")
+
+response = thdx.get_balance('BTC,ETC,TRY')
+```
 
 ## Public Methods
 ##### server_time
