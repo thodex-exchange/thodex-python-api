@@ -175,6 +175,31 @@ response = thdx.get_balance('BTC,ETC,TRY')
 }
 ```
 ---
+##### get_finished_order
+###### Success-Response:
+```json
+{
+    "error": null,
+    "result": {
+        "id": 573488,
+        "ctime": 1563363975.034534,
+        "ftime": 1563444920.554396,
+        "user": 3,
+        "market": "BTCTRY",
+        "source": "api",
+        "type": 1,
+        "side": 2,
+        "price": "13",
+        "amount": "0.76923076",
+        "taker_fee": "0.0035",
+        "maker_fee": "0.0023",
+        "deal_stock": "0.001",
+        "deal_money": "0.013",
+        "deal_fee": "0.0000023"
+    }
+}
+```
+---
 ##### get_order_history
 ###### Success-Response:
 ```json

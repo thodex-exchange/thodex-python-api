@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='Thodex',
-    version='1.0.3',
+    version='1.0.5',
     license='MIT',
     description='Python library for the Thodex API designed to be easy to use.',
     author='Atakan DEMIRKIR',

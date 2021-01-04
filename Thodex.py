@@ -71,6 +71,14 @@ class ThodexClient:
             }
         }, True)
 
+    def get_finished_order(self, order_id: int):
+        return self.execute({
+            'url': 'v1/market/order-finished-info',
+            'payload': {
+                'order_id': order_id,
+            }
+        }, True)
+
     def get_order_history(self, market: str, offset: int = 0, limit: int = 0):
         payload = {'market': market}
         if offset:
